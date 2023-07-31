@@ -1,0 +1,83 @@
+.courseContainerDiv {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(128, 128, 128, 0.4);
+}
+.courseContainerDiv h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.eachCoursesDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgb(128, 128, 128, 0.4);
+  border-radius: 20px;
+  margin-top: 0;
+}
+.courseDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formDiv label {
+  font-weight: bold;
+}
+.textAreaDiv {
+  display: flex;
+  align-items: center;
+}
+.textAreaDiv textarea {
+  margin-left: 5px;
+  text-align: center;
+}
+.buttonSave {
+  padding: 10px 15px;
+  font-size: 15px;
+  color: white;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttonDelete {
+  padding: 10px 15px;
+  font-size: 15px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  padding-right: 0;
+  margin-bottom: 0;
+
+}
+
+.listHeader .search{
+    margin-right: 0;
+}
+
+.listHeader .search label{
+    margin-right: 10px;
+}
+.valueDiv{
+  text-align: right;
+  font-size: 20px;
+  margin-right: 20px;
+}
